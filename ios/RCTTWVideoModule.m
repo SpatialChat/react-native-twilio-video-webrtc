@@ -199,7 +199,7 @@ RCT_EXPORT_METHOD(startLocalVideo) {
 }
 
 RCT_EXPORT_METHOD(startLocalAudio) {
-    self.localAudioTrack = [TVILocalAudioTrack trackWithOptions:nil enabled:YES name:@"microphone"];
+    self.localAudioTrack = [TVILocalAudioTrack trackWithOptions:nil enabled:YES name:@"mic"];
 }
 
 RCT_EXPORT_METHOD(stopLocalVideo) {
